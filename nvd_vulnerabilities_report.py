@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """
-nvd_installed_apps_report.py
-
 Скрипт виконує такі завдання:
 1) Автоматично обирає 5 встановлених програм на комп'ютері
 2) Шукає для них відомі вразливості (CVE) у базі NVD (NIST)
@@ -283,3 +278,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
